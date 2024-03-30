@@ -1,0 +1,260 @@
+*{
+    margin: 0%;
+}
+.part1{
+    background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(19, 9, 36) 100.2%);
+    height: 100vh;
+    
+}
+nav{
+    display: flex;
+   height: 60px;
+  justify-content: space-between;
+   
+}
+.logo{
+    margin-left: 6%;
+    margin-top: 1.5%;
+    color: rgb(228, 228, 19);
+    font-size: 40px;
+    position: relative;
+}
+.logo::before { 
+    content: "H";
+    position: absolute;
+    top: 0;
+    left: -1px;
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    color: rgb(228, 228, 19);
+}
+.table{
+   justify-content: flex-end;
+   margin-top: 1.5%;
+   margin-right: 6%;
+} 
+td{
+    width: 150px;
+    height: 60px;
+}
+.btn{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  17px;
+    color: #e4e413;
+}
+.btn:hover{
+    text-decoration: underline;
+}
+#home{
+    display: flex;
+}
+.intro{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: 20%;
+    margin-left: 6%;
+    color: white;
+}
+h2{
+    color: rgb(228, 228, 19);
+}
+.avatar{
+    margin: 6%;
+    margin-left: 6%;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 100px 400px 600px 100px;
+    grid-template-rows: 650px;
+    gap: 20px;
+    grid-template-areas: ". img para .";
+}
+.img{
+    grid-area:img;
+    background-image: url(ME.jpeg);
+    background-size: cover;
+
+}
+.para{
+   grid-area:para;
+}
+.para h1{
+    color: rgb(144, 17, 105) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-top: 22%;
+    margin-left: 10%;
+}
+.para p{
+    color: rgb(0, 0, 0) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 6%;
+    margin-left: 5%;
+}
+.skills{
+    width: 100%;
+    height: 350px;
+    margin-top: 4%;
+}
+.icons_skills{
+   display: flex;
+    justify-content: space-around;
+   margin-top: 6%;
+}
+#title{
+    color: rgb(144, 17, 105) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.icons{
+    width: 80px;
+}
+.project{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 450px;
+    gap: 40px;
+    grid-template-areas: "p1 p2 p3";
+    margin-top: 90px;
+    justify-content: center;
+}
+.p1{
+    grid-area:p1;
+    background-image: url(screencapture-file-C-Users-Nourelhoda-OneDrive-Desktop-ARK-X-Day-9-MusicStore-cart-html-2023-07-30-23_20_56.png);
+    background-size: cover;
+    
+}
+.p2{
+    grid-area:p2;
+    background-image: url(screencapture-file-C-Users-Nourelhoda-OneDrive-Desktop-ARK-X-Day-9-Digital-journal-grid-html-2023-07-30-23_18_28.png);
+    background-size: cover;
+}
+.p3{
+    grid-area:p3;
+    background-image: url(screencapture-file-C-Users-Nourelhoda-OneDrive-Desktop-ARK-X-Day-9-Digital-Servises-ahoyy-html-2023-07-30-23_20_24.png);
+    background-size: cover;
+    
+} 
+
+.p{
+     position: relative;
+     color: #fff;
+     transition: 0.5s;
+    cursor: pointer;
+ }
+ .btn_project:hover {
+     transform: translateY(-20px);
+     border: 1px solid  rgb(144, 17, 105) ; 
+     border-radius: 1.2em;
+ } 
+ .btn_project{
+    margin-left: 25%;
+    width: 200px;
+    height: 60px;
+    border: 4px solid rgb(144, 17, 105);
+    border-radius:40px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background: none;
+    margin-top: 5%;
+    transition-duration: 0.5s;
+ } 
+ a{
+    text-decoration: none;
+    color: rgb(144, 17, 105) ;
+ }
+  .btn_part3{
+    margin-top: 4%;
+    margin-left: 43%;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius:40px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background:  radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(19, 9, 36) 100.2%);
+    color:  rgb(144, 17, 105) ;
+    margin-top: 5%;
+    transition-duration: 0.5s;
+  }
+  .btn_part3:hover {
+    transform: translateY(-20px);
+  }
+  .btn_git{
+     text-decoration: none;
+     color: #e4e413;
+  }
+.part4{
+    display: flex;
+    margin-top: 6%;
+    background:  radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(19, 9, 36) 100.2%);
+    
+}
+form{
+    margin-top: 10%;
+    margin-left: 50px;
+    height: 60vh;
+}
+#cont{
+    color: #e4e413 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-top: 3%;
+}
+  
+#text{
+    width: 500px;
+    eight: 60px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    background: rgb(144, 17, 105);
+    border: none;
+    border-radius: 10px;
+    transition: all .5s;
+}
+#text:focus {
+    background: #e8e8e8;
+    box-shadow: inset 5px 5px 17px #c8c8c8,
+              inset -5px -5px 17px #ffffff;
+}
+.contact{
+    width: 40%;
+    margin-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:white;
+
+}
+.btn_contact{
+    margin-top: 4%;
+    width: 200px;
+    height: 60px;
+    border: 1px solid #e4e413;
+    border-radius:40px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background: none;
+    color:#e4e413 ;
+    margin-top: 5%;
+    transition-duration: 0.5s;
+}
+.btn_contact:hover {
+    transform: translateY(-20px);
+    background-color: #e4e413;
+    color:  rgb(144, 17, 105);;
+  }
+.btn_social{
+    border: none;
+    background: none;
+}
+.btn_social:hover {
+    transform: translateY(-10px);
+  }

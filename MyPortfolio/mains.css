@@ -1,0 +1,184 @@
+*{
+    margin:0% ;
+}
+.head_part1{
+    background-color: #003235;
+    color: white;
+   
+    height: 1130px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    margin: 2%;
+    margin-left: 5%;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 20px;
+}
+.table{
+    width: 600px;
+}
+td{
+    width: 505px;
+    height: 60px;
+  padding-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 23px;
+}
+.search{
+    margin: 2%;
+    margin-right: 5%;
+}
+.btn_search{
+    border: none;
+    background-color: #003235;
+}
+.btn_contact{
+    background-color:#003235 ;
+    border:1px solid  #148184;
+    border-radius: 10px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 23px;
+}
+.part1{
+    display: grid;
+    margin-left: 6%;
+    grid-template-columns:   250px 250px 250px 100px 250px;
+    grid-template-rows:  300px 600px;
+    gap: 20px;
+    grid-template-areas: "p1 p1 p1 p2 p2"
+      "p3 p3 p3 p3 p4 ";
+}
+.p1{  
+    grid-area:p1;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 36px;
+    margin-top: 8%;
+ }
+ .p2{
+  grid-area:p2;
+  margin-top: 20%;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  width: 350px;
+  padding-left:20%;
+ }
+ .btn_p2{
+    height: 50px;
+    width: 180px;
+    position: absolute;
+    top: 370px;
+    left: 30Ppx;
+    background-color:#148184;
+    border:1px solid  #148184;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+ }
+ .p3{
+  grid-area:p3;
+  background-image: url(Employee-Advocacy-.png);
+  background-size: cover;
+  border-radius: 20px;
+  margin-top: 3%;
+ }
+ .p4{
+  grid-area:p4;
+  margin-top: 25%;
+  padding-left: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+
+ }
+ hr{
+    border: none;
+    padding: 1px;
+    background-color: #148184;
+ }
+ .part2{
+    display: flex;
+
+ }
+ .para{
+    width: 50%;
+    margin: 2%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    
+      
+ }
+ .about{
+    color: #148184;
+    
+
+ }
+ .para{
+    margin-top: 6%; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;    
+ }
+ .para1{
+    color: #003235;
+    font-size: 50px; 
+ }
+ .img2{
+    margin-left: 6%;
+ }
+ .btn_learn{
+    margin-top: 6%;
+    height: 50px;
+    width: 180px;
+    background-color:#148184;
+    border:1px solid  #148184;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+ }
+ .part3{
+    padding-left: 23%;
+    padding-top: 6%;
+    height:450px;
+    color: #003235;
+    font-size: 30px; 
+ }
+ input{
+    margin-top: 6%;
+     height: 40px;
+     width: 600px;
+ }
+ .btn_get{
+    margin-top: 3%;
+    height: 50px;
+    width: 180px;
+    background-color:#148184;
+    border:1px solid  #148184;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+ }
+ .footer{
+    background-color: #003235;
+    height: 250px;
+    padding-top: 3%;
+    padding-left: 40%;
+    font-size: 30px;
+ }
+ 
+ #icons{
+    margin: 2%;
+    
+ }

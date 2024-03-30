@@ -1,0 +1,220 @@
+body{
+    background-color: black;
+}
+.all{
+    width: 100%;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.btn_head{
+    border: none;
+    background-color: black;
+}
+.title{
+    color: white;
+    font-family: 'Victor Mono', monospace;
+    font-size: 30px;
+    margin-right: 5%;
+}
+.menu{
+    margin-left: 6%;
+    margin-top: 1.5%;
+}
+.srch{
+    margin-right: 6%;
+    margin-top: 1.5%;
+}
+.container{
+    display: grid;
+    margin-left: 6%;
+    width: 100%;
+    grid-template-columns: repeat(6, 280px);
+    grid-template-rows:  700px repeat(4, 500px);
+    gap: 20px;
+    grid-template-areas: "P1 P1 P1 P1 P1 P1"
+      "P2 P2 P3 P3 P3 P3 "
+      "P4 P4 P4 P4 P5 P5 "
+      "P6 P6 P7 P7 P5 P5 "
+      "P8 P8 P8 P9 P9 P9 ";
+}
+.P1{
+   grid-area:P1;
+   background-size: cover;
+   background-image:url(P1.jpg);
+}
+.P2{
+ grid-area:P2;
+ background-image: url(text.jpg);
+ background-size: cover;
+}
+.P3{
+ grid-area:P3;
+ background-image: url(QQQ.jpg);
+ background-size: cover;
+ 
+}
+.P4{
+ grid-area:P4;
+ background-image: url(blob.jpg);
+ background-size: cover;
+ color: white;
+}
+
+.P5{
+    grid-area:P5;
+    background-image: url(ScreenShot_20230212192154.jpeg);
+ background-size: cover;
+   
+   }
+.P6{
+ grid-area:P6;
+ background-image: url(OIP.jpg);
+ background-size: cover;
+}
+.P7{
+    grid-area:P7;
+    background-image: url(3adcc8a21c85b3062392bf802fdae06b--beyonce-quotes-beyonce-songs.jpg);
+ background-size: cover;
+} 
+.P8{
+ grid-area:P8;
+ background-image: url(chytre-hodinky-samsung-galaxy-watch-4-smartwatch-fitness-zdravi-mereni-tuku-v-tele-koncept-1024x576.jpg);
+ background-size: cover;
+}
+.P9{
+ grid-area:P9;
+ background-image: url(balloonbench2.jpg);
+ background-size: cover;
+}
+#button1:hover{
+    background-color:gray;
+}
+#button1{
+    width: 190px;
+    height: 40px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 450px;
+    margin-left: 40px;
+}
+#button3:hover{
+    background-color:gray;
+}
+#button3{
+    width: 190px;
+    height: 40px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 250px;
+    margin-left: 40px;
+}
+#button4:hover{
+    background-color:gray;
+}
+#button4{
+    width: 190px;
+    height: 40px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 250px;
+    margin-left: 940px;
+}
+#button5:hover{
+    background-color:gray;
+}
+#button5{
+    width: 190px;
+    height: 40px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 750px;
+    margin-left: 40px;
+}
+#button6:hover{
+    background-color:gray;
+}
+#button6{
+    width: 190px;
+    height: 40px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 250px;
+    margin-left: 220px;
+}
+#button7:hover{
+    background-color:gray;
+}
+#button7{  
+    width: 190px;
+    height: 40px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 330px;
+    margin-left: 350px;
+}
+#button8:hover{
+    background-color:gray;
+}
+#button8{
+    width: 190px;
+    height: 40px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 230px;
+    margin-left: 40px;
+}
+#button9:hover{
+    background-color:gray;
+}
+#button9{
+    width: 190px;
+    height: 40px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 260px;
+    margin-left: 40px;
+}
+h1{
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+ font-size: 40px;
+ margin-left: 30px;
+}
+p{
+    color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 30px;
+ margin-left: 30px;
+}
+.tech{
+    margin-top: 130px;
+}
+
